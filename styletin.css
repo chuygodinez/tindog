@@ -1,0 +1,168 @@
+/*    HTML CODE     */
+
+body {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* HEADINGS */
+
+.big-heading {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CONTAINERS */
+
+.container-fluid {
+  width: 100%;
+  padding: 7% 15%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* SECTIONS  */
+
+.white-section {
+    background-color: #fff;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* NAVBAR SECTION */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+/* download-button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE SECTION */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-pic {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+  }
+
+  @media (max-width:1028px) {
+    #title {
+      text-align: center;
+    }
+    .title-pic {
+      position: static;
+      transform: rotate(0deg);
+    }
+  }
+
+  /* FEATURES SECTION  */
+
+  #features {
+      position: relative;
+    }
+
+  .feature-title {
+    font-size: 1.5rem;
+  }
+
+  .feature-box {
+    padding: 4.5%;
+  }
+
+  .emoticon-pic {
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+
+  .emoticon-pic:hover {
+    color: #ff4c68;
+  }
+
+  /* TESTIMONIALS SECTION */
+
+  #testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  }
+
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .testimonial-pic {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  #press {
+    background-color: #ef8172;
+    padding: 3%;
+  }
+
+  .press-pic {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+/* PRICING SECTION */
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+/* FOOTER SECTION  */
+
+.icon-fab {
+  padding: 3% 1%;
+}
